@@ -27,3 +27,5 @@ git diff fileName
 git log
 
 git checkout fileName
+
+git checkout hash
