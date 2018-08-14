@@ -12,3 +12,4 @@ git push origin master
 Username: username
 Password: password
 git diff fileName
+git log
