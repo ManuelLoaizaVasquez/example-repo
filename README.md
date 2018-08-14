@@ -25,3 +25,5 @@ Password: password
 git diff fileName
 
 git log
+
+git checkout fileName
