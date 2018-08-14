@@ -1,11 +1,14 @@
-Hello world XD
+# Example repository
+Hello world!
 
 This is a second change
+# Basic git commands
 mkdir (create a directory)
-git clone URL name
+git clone URL directoryName
 git add fileName
 git status
 git commit -m "message"
 git push origin master
-Username: asdf
-Password: asd
+Username: username
+Password: password
+git diff fileName
