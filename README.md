@@ -50,12 +50,18 @@ Format fs=Fat32 Quick
 
 Exit
 
-# How to dual boot my Windows laptop into Linux
+# How to dual boot my Windows laptop with Linux using a pendrive
 
 1. Download a Linux ISO file
 
-2. Download a program to write the ISO into a usb (https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/)
+2. Download a program to write the ISO into a pendrive (https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/)
 
 3. Run the .exe and burn the ISO
 
-4. 
+4. Open Disk Management, select the disk in which you are going to free space (1GB == 1024MB)
+
+5. Plug the pendrive into the laptop and restart it.
+
+6. While booting, enter to the boot menu and look for the option boot from removable media (usb)
+
+7. Install Linux
