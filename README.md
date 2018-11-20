@@ -30,6 +30,16 @@ git checkout fileName
 
 git checkout hash
 
+# Install and setup GitHub on Ubuntu
+
+Ctrl + Alt + T
+
+sudo apt-get install git
+
+git config --global user.name "user_name"
+
+git config --global user.email "email_id"
+
 # Restoring my usb to its original state using Windows
 
 Win + R + "cmd" + enter
