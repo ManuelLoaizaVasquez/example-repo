@@ -72,6 +72,11 @@ In command mode:
   
   :q! quit without saving
   
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
 # Install and setup GitHub on Ubuntu
 
 Ctrl + Alt + T
