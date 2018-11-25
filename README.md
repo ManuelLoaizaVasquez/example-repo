@@ -46,7 +46,7 @@ ESC: switch to command mode
 
 ## Switch to insert mode:
 
-'i', 'I': Insert
+'i', 'I' Insert
 
 'a' Append
 
@@ -54,7 +54,7 @@ Shift + 'a' Append at the end of the line
 
 'c' Change current word
 
-'cc' Change current line
+"cc" Change current line
 
 'o', 'O' Open
 
@@ -62,15 +62,17 @@ Shift + 'a' Append at the end of the line
 
 'u' undo
 
-'yy' copy
+"yy" copy
 
-'nyy' copy n lines
+"nyy" copy n lines
 
 'p' paste
 
-'d' delete
+"dd" delete line
 
-'ndd' delete n lines
+"ndd" delete n lines
+
+"dw" delete word
 
 'x' delete a character
 
