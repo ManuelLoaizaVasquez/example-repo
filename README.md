@@ -4,6 +4,16 @@ Hello world!
 
 This is a second change
 
+# Install and setup GitHub on Ubuntu
+
+Ctrl + Alt + T
+
+sudo apt-get install git
+
+git config --global user.name "user_name"
+
+git config --global user.email "email_id"
+
 # Basic git commands
 
 mkdir (create a directory)
@@ -34,7 +44,7 @@ git checkout hash
 
 ESC: switch to command mode
 
-##Switch to insert mode:##
+## Switch to insert mode:
 
 'i', 'I': Insert
 
@@ -48,7 +58,7 @@ Shift + 'a' Append at the end of the line
 
 'o', 'O' Open
 
-##In command mode:##
+## In command mode:
 
 'u' undo
 
@@ -81,16 +91,6 @@ Shift + 'a' Append at the end of the line
 'b' previous word or special character
 
 Shift + 'b' previous token
-
-# Install and setup GitHub on Ubuntu
-
-Ctrl + Alt + T
-
-sudo apt-get install git
-
-git config --global user.name "user_name"
-
-git config --global user.email "email_id"
 
 # Restoring my usb to its original state using Windows
 
