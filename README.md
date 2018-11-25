@@ -32,45 +32,55 @@ git checkout hash
 
 # Basic VIM commands
 
->ESC: switch to command mode
+ESC: switch to command mode
 
->Switch to insert mode:
+##Switch to insert mode:##
 
->>'i', 'I': Insert
+'i', 'I': Insert
 
->>'a', 'A': Append
+'a' Append
 
->>'o', 'O': Open
+Shift + 'a' Append at the end of the line
 
->In command mode:
+'c' Change current word
 
->>'u' undo
+'cc' Change current line
 
->>'yy' copy
+'o', 'O' Open
 
->>'nyy' copy n lines
+##In command mode:##
 
->>'p' paste
+'u' undo
 
->>'d' delete
+'yy' copy
 
->>'ndd' delete n lines
+'nyy' copy n lines
 
->>'x' delete a character
+'p' paste
 
->>/search_pattern highlight all the matches
+'d' delete
 
->>'n' next match
+'ndd' delete n lines
 
->>:e edit another file
+'x' delete a character
 
->>:e# switch to the previous file
+/search_pattern highlight all the matches
 
->>:w save
+'n' next match
 
->>:q quit
+:e edit another file
 
->>:q! quit without saving
+:e# switch to the previous file
+
+:w save
+
+:q quit
+
+:q! quit without saving
+
+'b' previous word or special character
+
+Shift + 'b' previous token
 
 # Install and setup GitHub on Ubuntu
 
